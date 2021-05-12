@@ -23,6 +23,28 @@
             </div>
         </header>
 
+        <main>
+            <div class="main-middle">
+                <div class="income-expense" id="income-expense">
+                    <div class="income-expense-middle" id="income">
+                        <p>Income</p>
+                    </div>
+                    <div class="income-expense-middle" id="expense">
+                        <p>Expense</p>
+                    </div>
+                </div>
+
+                <div class="income-form" id="income-form">
+                    <form>
+                        <input type="text" placeholder="Description" autocomplete="off" required />
+                        <input type="text" placeholder="Amount" autocomplete="off" required />
+                        <input type="submit" class="btn-income-form" value="Launch" />
+                        <input type="reset" class="btn-income-form btn-cancel" id="btn-cancel" value="Cancel" />
+                    </form>
+                </div>
+            </div>
+        </main>
+
         <!-- mobile menu -->
         <div class="menu-mobile" id="menu-mobile">
             <div class="menu-mobile-header">
@@ -39,6 +61,7 @@
         </div>
 
         <script src="../js/script.js"></script>
+        <script src="../js/new-launch.js"></script>
 
     </body>
 </html>
