@@ -1,0 +1,23 @@
+$default-font: 'Arial', sans-serif;
+$color-one: #0059ff;
+$color-two: #0084ff;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $default-font;
+}
+
+a {
+    color: $color-one;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $color-two;
+    text-decoration: underline;
+}
