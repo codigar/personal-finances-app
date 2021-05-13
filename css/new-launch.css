@@ -159,17 +159,17 @@ main .main-middle {
   border: 2px solid #0059ff;
 }
 
-.income-form {
+.launch-form {
   display: none;
 }
 
-.income-form form {
+.launch-form form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.income-form form input {
+.launch-form form input {
   padding: 15px;
   margin: 5px 0px 5px 0px;
   outline: none;
@@ -180,32 +180,32 @@ main .main-middle {
   font-size: 12pt;
 }
 
-.income-form form input:focus {
+.launch-form form input:focus {
   border: 2px solid #0059ff;
 }
 
-.income-form form .btn-income-form {
+.launch-form form .btn-launch-form {
   border: none;
   cursor: pointer;
   background-color: #0059ff;
   color: #fff;
 }
 
-.income-form form .btn-income-form:focus {
+.launch-form form .btn-launch-form:focus {
   border: none;
 }
 
-.income-form form .btn-income-form:hover {
+.launch-form form .btn-launch-form:hover {
   background-color: #0062ff;
 }
 
-.income-form form .btn-cancel {
+.launch-form form .btn-cancel {
   background: #fff;
   border: 2px solid red;
   color: red;
 }
 
-.income-form form .btn-cancel:hover {
+.launch-form form .btn-cancel:hover {
   background-color: #fff;
   box-shadow: 0px 0px 5px red;
 }

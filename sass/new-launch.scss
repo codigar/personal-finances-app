@@ -26,7 +26,7 @@
     }
 }
 
-.income-form {
+.launch-form {
     display: none;
 
     form {
@@ -49,18 +49,18 @@
             border: 2px solid $color-one;
         }
 
-        .btn-income-form {
+        .btn-launch-form {
             border: none;
             cursor: pointer;
             background-color: $color-one;
             color: #fff;
         }
 
-        .btn-income-form:focus {
+        .btn-launch-form:focus {
             border: none;
         }
 
-        .btn-income-form:hover {
+        .btn-launch-form:hover {
             background-color: $color-two;
         }
 

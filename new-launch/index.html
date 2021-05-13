@@ -34,12 +34,14 @@
                     </div>
                 </div>
 
-                <div class="income-form" id="income-form">
-                    <form>
-                        <input type="text" placeholder="Description" autocomplete="off" required />
-                        <input type="text" placeholder="Amount" autocomplete="off" required />
-                        <input type="submit" class="btn-income-form" value="Launch" />
-                        <input type="reset" class="btn-income-form btn-cancel" id="btn-cancel" value="Cancel" />
+                <!-- Form to launch income or expense -->
+                <div class="launch-form" id="launch-form">
+                    <form id="form">
+                        <input type="hidden" id="launchtype" />
+                        <input type="text" id="description" placeholder="Description" autocomplete="off" required />
+                        <input type="text" id="amount" placeholder="Amount" autocomplete="off" required />
+                        <input type="submit" class="btn-launch-form" id="btn-launch-form" value="Launch" />
+                        <input type="reset" class="btn-launch-form btn-cancel" id="btn-cancel" value="Cancel" />
                     </form>
                 </div>
             </div>
